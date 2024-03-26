@@ -1,0 +1,43 @@
+.offer-item {
+    width: 50%;
+}
+.offer-item .section-header {
+    text-align: left;
+}
+.offer-item .section-header .line {
+    margin: 0 0 40px 0;
+}
+.offer-item-desc {
+    padding-right: 20px;
+    color: #999;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.offer-list li .icon {
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    width: 30px;
+    height: 30px;
+    padding: 7px; 
+    border-radius: 50%;
+}
+.offer-list li .icon:hover {
+    background-color: var(--mainColor);
+    color: white;
+}
+.offer-item-img img {
+    width: 100%;
+}
+.offer-bollets li {
+    width: 10px;
+    height: 10px;
+    background-color: #e8e8e8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.offer-bollets li.active {
+    background-color: var(--mainColor);
+}
+.offer-bollets li:hover {
+    background-color: var(--mainColor);
+}

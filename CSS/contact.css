@@ -1,0 +1,55 @@
+.contact-ways-item {
+    width: 30%;
+}
+.contact-ways-item i {
+    color: var(--mainColor);
+}
+.contact-ways-item.mg {
+    margin: 0 5%;
+}
+.contact-ways-item-title {
+    margin: 15px 0;
+}
+.contact-ways-item-desc {
+    color: #999;
+} 
+.contact-div {
+    margin: 135px 0 0 0;
+}
+.contact-div input {
+    height: 30px;
+}
+input, textarea {
+    margin: auto;
+    border :none;
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
+.contact-div .name-input, .contact-div .email-input {
+    width: 35%;
+}
+.subject-input {
+    width: 70.4%;
+}
+.message-input {
+    margin: auto;
+    width: 70.4%;
+    height: 65px;
+}
+.contact-div .message-input:focus {
+    border: 2px solid var(--mainColor);
+}
+.contact-div .submit-input {
+    background-color: var(--mainColor);
+    border: none;
+    width: 18%;
+    height:42px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.contact-div .submit-input:hover {
+    background-color: #333;
+}

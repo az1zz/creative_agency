@@ -1,0 +1,51 @@
+.mg-b-5 {
+    margin-bottom: 5px;
+}
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+.mg-b-15 {
+    margin-bottom: 15px;
+}
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+.mg-b-45 {
+    margin-bottom: 45px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+ul {
+    list-style: none;
+}
+.float-left {
+    float: left;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.bg-gray {
+    background-color: #f8f8f8;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.text-align-cen {
+    text-align: center;
+}
+.font-weight-bld {
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.testimonial {
+    background-image: url("../images/background/background3.jpg");
+    background-attachment: fixed;
+    height:350px;
+}
+.testimonial-content {
+    padding: 90px 0;
+    width: 80%;
+    margin: auto;
+}
+.testimonial-item {
+    width: 50%;
+    color: white;
+}
+.testimonial-item .testimonial-toplayer {
+    padding: 10px 2px 40px 90px;
+}
+.testimonial-item .testimonial-toplayer img {
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+}
+.testimonial-item .testimonial-toplayer h2 {
+    margin: 5px 0;
+}
+.testimonial-item .testimonial-toplayer span {
+    color: var(--mainColor);
+}
+.testimonial-desc {
+    line-height: 1.5;
+    font-size: 17px;
+}

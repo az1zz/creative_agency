@@ -1,0 +1,57 @@
+.header {
+    /* when you make the position fixed or absolute it makes the element inline-block from block element */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0,0,0,0.4);
+    transition: background 0.5s;
+}
+.header:hover {
+    background: rgba(0,0,0,0.8);
+}
+.header .logo {
+    width: 40%;
+}
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+.header .navbar {
+    width: 60%;
+}
+.header .navbar > li > a {
+    color: white;
+    padding: 30px 10px 20px 10px;
+}
+.header .navbar > li > a:after,
+.header .navbar > li > a.active:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--mainColor);
+    transition: width .5s;
+}
+.header .navbar > li > a.active:after {
+    width: 100%;
+}
+.header .navbar > li > a:hover:after {
+    width: 100%;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu {
+    background-color: var(--mainColor);
+    width: 100px;
+    opacity: 0;
+    visibility: hidden;
+    left: -45%;
+    top: 70%;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+.dropdown-menu li a {
+    color: white;
+    padding:10px;
+}

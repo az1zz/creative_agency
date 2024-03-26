@@ -1,0 +1,32 @@
+.blog-item {
+    width: 30%;
+    background-color: #fff;
+}
+.blog-item-img img {
+    width: 100%;
+}
+.blog-list {
+    margin : 10px 0;
+}
+.blog-list li {
+    margin: 0 5px;
+}
+.blog-info {
+    padding: 20px;
+}
+.blog-list li i {
+    color: var(--mainColor);
+}
+.blog-item-title {
+    margin : 20px 0;
+}
+.blog-item-desc {
+    color: #999;
+    line-height: 1.5;
+}
+.blog-item-link {
+    color: var(--mainColor);
+}
+.blog-item.mg {
+    margin: 0 5%;
+}

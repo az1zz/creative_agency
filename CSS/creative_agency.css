@@ -1,0 +1,84 @@
+/* 1- Common styles */
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.hover-opacity {
+    /* transition affect all the element properties */
+    transition: opacity .5s;
+}
+.hover-opacity:hover {
+    opacity: 0.7;
+}
+.ltr-effect:after, .ttb-effect:after {
+    position: absolute;
+    content: "";
+    background-color: #333;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    transition: 0.5s;
+    z-index: -1;
+}
+.ltr-effect:after {
+    width: 0%;
+    transition: width 0.5s;
+}
+.ttb-effect:after {
+    height: 0;
+    transition: height 0.5s;
+}
+.ltr-effect:hover:after {
+    width: 100%;
+}
+.ttb-effect:hover:after{
+    height: 100%;
+}
+
+
+/* 2- General CSS Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* CSS3 */
+}
+:root {
+    --mainColor : #6195ff;
+    --grayColor: #999;
+    --whiteColor: #fff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+body {
+    font-family: "Varela Round", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat,sans-serif;
+}
+button {
+    font-family: inherit;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+.pd-y {
+    padding: 120px 0px;
+}
+.section-header .section-title {
+    font-size: 35px;
+}
+.section-header .line {
+    height: 5px;
+    width: 50px;
+    margin: 0px auto 70px auto;
+    background-color: var(--mainColor);
+}

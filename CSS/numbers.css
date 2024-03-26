@@ -1,0 +1,22 @@
+.numbers {
+    background-image: url("C:/Users/aziz/OneDrive/Desktop/CSS Project/creative_agency/images/background/background2.jpg");
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.numbers-items {
+    padding: 100px 0;
+}
+.numbers-item {
+    width: 25%;
+}
+.numbers-item .icon {
+    color: var(--mainColor);
+}
+.numbers-item-title {
+    font-size: 30px;
+    color: white;
+}
+.numbers-item-text {
+    color:white; 
+}

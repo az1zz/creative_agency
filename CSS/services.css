@@ -1,0 +1,23 @@
+.services-item {
+    width: 30%;
+    border: 1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+}
+.services-item:hover .services-item-title {
+    color: white;
+}
+.services-item.mg {
+    margin: 0 5%;
+}
+.services-item .icon {
+    left: 15px;
+    top: 35px;
+    color: var(--mainColor);
+}
+.services-item-title {
+    transition: color 0.5s;
+}
+.services-item-desc {
+    line-height: 1.6;
+    color:#999 ;
+}
