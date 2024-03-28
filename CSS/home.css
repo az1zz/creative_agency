@@ -1,6 +1,6 @@
 .home {
     height: 100vh;
-    background-image: url("C:/Users/aziz/OneDrive/Desktop/CSS Project/creative_agency/images/background/background1.jpg");
+    background-image: url("images/background/background1.jpg");
     background-position: center;
     background-size: cover; /* css3 */
 }
